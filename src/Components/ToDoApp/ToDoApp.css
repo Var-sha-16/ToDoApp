@@ -1,0 +1,18 @@
+/* In src/App.css */
+
+.app{
+
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.todo-flex{
+    display: flex;
+   
+
+}
+@media (max-width: 1000px) {
+    .todo-flex{
+        flex-wrap: wrap;
+    
+    }
+  }
